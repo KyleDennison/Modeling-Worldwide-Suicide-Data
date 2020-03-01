@@ -1,8 +1,33 @@
-# Modeling-Worldwide-Suicide-Data
-This repository contains the data master.csv that was found from https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016. It also has a presentation of the questions asked and the graphs that answers them. These graphs were created from the ProjectCode.rmd file. 
+# Modeling Worldwide Suicide Data
 
-This project first tries to answer, How accurately can demographic information like sex, age, and generation be used to predict the number of suicides per 100K population? To answer this we compared the results of a single decesion tree, bagged model, and Random Forest that were built using data from a single year. This was tested using a validation set of countries and found that the Random Forest predicted the most accurately with a Mean Squared Error of 71.5. 
+![demo1](Pictures/demoPicture1.png)
 
-The second question is Is there an association between GDP per capita and suicides per 100k? 
-If so, could there be significant interaction between GDP per capita and a country’s region or development level?
-To answer this we built a logistic regression model to measure the interaction between GDP and region, then used this to create a line graph showing the association between GDP and suicides per 100k. 
+![demo2](Pictures/demoPicture2.png)
+
+This is a project that was created as a final project for a Statistical Learning course from November to December 2019. The goal of this project was to create and answer interesting questions with a dataset using techniques learned from the course. This was accomplished by utilizing Random Forrest and Logistic Regression on a dataset of worldwide scuicide from https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016. The Final.pptx file is a powerpoint presentation that goes over the purpose of the project, how it was accomplished, and its results in more detail.  
+
+My role in this project was to create and answer the first question, How accurately can demographic information like sex, age, and generation be used to predict the number of suicides per 100K population? To answer this I compared the results of a single decesion tree, bagged model, and Random Forest that were built using data from a single year. This was tested using a validation set of countries and found that the Random Forest predicted the most accurately with a Mean Squared Error of 71.5. 
+
+### Getting Started 
+
+To run this project download and unzip the files from this directory and start a new project in Rstudio. 
+
+![Step 1](Pictures/instruction1.png)
+
+Then move the the ProjectCode.Rmd and master.csv files into the new project directory. You may need to install neccesary packages. 
+
+![Step 2](Pictures/instruction2.png)
+
+Finally, just select knit to run the program and receive the 
+
+![Step 3](Pictures/instruction3.png)
+
+### Built With 
+
+* RStudio - IDE
+* randomForest - Library for Random Forest model tools
+
+### Authors 
+
+* Kyle Dennison - KyleDennison
+* Joshua Ingram 
