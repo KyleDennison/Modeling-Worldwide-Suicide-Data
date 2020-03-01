@@ -10,15 +10,15 @@ My role in this project was to create and answer the first question, How accurat
 
 ### Getting Started 
 
-To run this project download and unzip the files from this directory and start a new project in Rstudio. 
+To run this project download and unzip the files from this directory and open the ModelingSuicideData.Rproj file. 
 
 ![Step 1](Pictures/instruction1.png)
 
-Then move the the ProjectCode.Rmd and master.csv files into the new project directory and open the .Rmd file. You may need to install neccesary packages. 
+Then open the ProjectCode.Rmd file, you may need to install required libraries. 
 
 ![Step 2](Pictures/instruction2.png)
 
-Finally, just select knit to run the program and receive the 
+Finally, just select knit to run the program and receive the ProjectCode.html output file
 
 ![Step 3](Pictures/instruction3.png)
 
